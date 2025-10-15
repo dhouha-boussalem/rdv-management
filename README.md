@@ -6,7 +6,6 @@ Application console .NET pour gérer des rendez-vous avec détection de chevauch
 - ✅ Parsing de RDV
 - ✅ Détection des overlaps
 - ✅ Gestion des cas invalides
-- 🚧 TODO : Ajouter tests unitaires
 - 🚧 TODO : Améliorer la gestion des fuseaux horaires
 
 ## Stack
