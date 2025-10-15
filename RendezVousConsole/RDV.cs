@@ -1,11 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-internal class RDV
+public class RDV
 {
     public DateTime DateTime { get; set; }
     public int Duration { get; set; }
 
-    internal void Print()
+    public void Print()
     {
         Console.WriteLine(DateTime.ToString() + " " + Duration);
     }

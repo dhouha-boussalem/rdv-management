@@ -11,7 +11,7 @@ List<string> invalidRdvs = new List<string>();
 Console.Write("Quel est ton nom ? ");
 string? nom = Console.ReadLine();
 
-Console.WriteLine($"Salut, {nom} !, donnez moi vos rdvs, # à la fin pour terminer");
+Console.WriteLine($"Salut, {nom} !, donnez moi vos rdvs format yyyy-MM-dd HH:mm duration in minutes, # à la fin pour terminer");
 
 string? input = Console.ReadLine();
 
@@ -69,14 +69,6 @@ if (rdvsOverlaping.Count > 0)
     foreach (var overlap in rdvsOverlaping)
     {
         overlap.Print();
-    }
-}
-if (invalidRdvs.Count > 0)
-{
-    Console.WriteLine("⚠️ Les Rdvs Invalides");
-    foreach (var invalidRdv in invalidRdvs)
-    {
-        Console.WriteLine(invalidRdv);
     }
 }
 
